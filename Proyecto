@@ -183,3 +183,13 @@ void ClonaPalabras(
         }
     }
 }
+void ListaCandidatas(
+ char szPalabrasSugeridas[][TAMTOKEN], 
+ int iNumSugeridas, 
+ char szPalabras[][TAMTOKEN], 
+ int iEstadisticas[], 
+ int iNumElementos, 
+ char szListaFinal[][TAMTOKEN], 
+ int iPeso[], 
+ int& iNumLista) 
+{
